@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Background Generator</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+   <section class="container">
+       <h1 class="title">Gradient Background Generator</h1>
+       <div class="firstColor">
+           <span>#000000</span>
+           <input type="color" value="">
+       </div>
+       <div class="secondColor">
+           <span>#ffffff</span>
+           <input type="color" value="">
+       </div>
+       <section class="dir">
+           <select name="" id="">
+               <option value="to right">to right</option>
+               <option value="to left">to left</option>
+               <option value="to top">to top</option>
+               <option value="to bottom">to bottom</option>
+           </select>
+       </section>
+       <p class="outline">
+           Current Background: linear-gradient(
+           <span class="d">to right,</span>
+           <span class="first">#000000,</span>
+           <span class="second">#ffffff</span>
+           );
+       </p>
+   </section>
+   
+    <script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>
